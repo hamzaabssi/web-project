@@ -1,0 +1,49 @@
+body {
+    background-color: #f5f1e8; /* Background similar to the image */
+}
+
+.features {
+    position: relative;
+    padding: 50px 0;
+    bottom: 100px;
+    right: 92px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+.feature:hover {
+    transform: scale(1.1); /* Makes the div slightly bigger */
+}
+
+.number {
+    font-size: 14px;
+    color: #aaa;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.icon {
+    font-size: 40px;
+    color: #222;
+    margin: 10px 0;
+}
+
+.feature-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}
+
+.divider {
+    width: 50px;
+    height: 1px;
+    background-color: #aaa;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+}

@@ -1,0 +1,51 @@
+/* Page Background */
+body {
+    background: linear-gradient(to right, #b89c6c, #e6c07c);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Payment Card */
+.payment-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    backdrop-filter: blur(10px);
+}
+
+/* Title */
+h2 {
+    color: #4d3b21;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Description */
+p {
+    color: #5a4a2c;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* WhatsApp Payment Button */
+.btn-whatsapp {
+    display: inline-block;
+    background: #25d366;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    background: #1da851;
+}
